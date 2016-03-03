@@ -4,7 +4,9 @@
 ################################
 
 HKEY_CURRENR_USER -> Desctop -> MenuShowDelay (1) #уменьшаем время для отрисовки окон и меню
-HKEY_CURRENR_USER -> Mouse -> MouseHoverTime () #уменьшаем время для отрисовки окон и меню
+HKEY_CURRENR_USER -> Mouse -> MouseHoverTime (1) #уменьшаем время для отрисовки окон и меню
 
 --Перезагрузка--
 
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell 
+((Создать» -> «Параметр DWORD (32-бита) UseWin32TrayClockExperience (1)) #вернуть старый вид часов
