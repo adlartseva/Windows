@@ -15,3 +15,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell
 
 HKEY_CURRENT_USER/SOFTWARE/Microsoft/Windows/CurrentVersion/Themes/Personalize
 Создать» -> «Параметр DWORD (32-бита) SystemUsesLightTheme (0) #темная тема оформления
+
+--Перезагрузка--
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control -> WaitToKillServiceTimeout (2000) #быстрое завершение работы
+HKEY_CURRENT_USER\Control Panel\Desktop -> WaitToKillAppTimeout (2000) #время в течение которого Windows будет ждать закрытия приложения до того, как завершить его принудительно
+HKEY_CURRENT_USER\Control Panel\Desktop -> AutoEndTasks (1) # #-#-#
