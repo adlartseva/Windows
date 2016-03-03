@@ -10,3 +10,8 @@ HKEY_CURRENR_USER -> Mouse -> MouseHoverTime (1) #уменьшаем время 
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell 
 ((Создать» -> «Параметр DWORD (32-бита) UseWin32TrayClockExperience (1)) #вернуть старый вид часов
+
+--Перезагрузка--
+
+HKEY_CURRENT_USER/SOFTWARE/Microsoft/Windows/CurrentVersion/Themes/Personalize
+Создать» -> «Параметр DWORD (32-бита) SystemUsesLightTheme (0) #темная тема оформления
